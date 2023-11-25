@@ -1,0 +1,44 @@
+<div class="container">
+    <!-- <h1>hello</h1>  
+    <h2>{{welcome}}</h2>  
+    <ul>
+      <li *ngFor="let task of tasks">{{task}}</li>
+    </ul>
+    
+    <h2>{{ 'hola'.repeat(4) }}</h2>
+    
+    
+    <img [src]="persona.avatar" alt="">
+    <button [disabled]="disabled">click me</button>
+    <p> name {{ name() }}</p>
+    <hr/>
+    
+    <button (click)="clickHandler()">click dos</button>
+    <h1>
+        <button (dblclick)="clickHandlerDouble()">click doble</button>  
+    </h1>
+
+    <p>Change</p>
+    <input type="number" [value]="persona.age" (change)="changeInput($event)">
+
+    <p>Key down</p>
+    <input type="text" [value]="persona.name" (keydown.a)="clickHandler()"> -->
+
+    <h1>SIGNAL</h1>
+
+    
+    <p>Change</p>
+    <input type="text" [value]="name()" (change)="changeInput($event)">
+    <p>{{ name() }}</p>
+
+
+    <ul>
+        <p>total : {{ tasks().length }}</p>
+        <li *ngFor="let task of tasks(); index as i">
+          {{ i }}  {{task}}
+        </li>
+      </ul>
+
+</div>
+
+
