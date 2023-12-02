@@ -24,7 +24,7 @@ export class LabsComponent {
   img = 'https://www.lapatria.com/sites/default/files/styles/ampliar_945/public/noticia/2023-11/WhatsApp%20Image%202023-11-23%20at%209.25.28%20AM_0.jpeg?itok=jCsEGEQx';
 
   person = signal({
-    name : 'nadie',
+    name : 'alvaro',
     age : 20,
     avatar: this.img
   });
